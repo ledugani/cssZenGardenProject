@@ -1,8 +1,11 @@
-body {
+* {
+    font-family: Georgia, sans-serif;
     background-color: tomato;
     color: ghostwhite;
 }
 
 #main-container {
-    margin: auto;
+    position: relative;
+    margin: 0 auto;
+    width: 60%;
 }
