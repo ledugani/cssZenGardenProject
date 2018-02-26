@@ -3,73 +3,70 @@
   <head>
     <meta charset="UTF-8">
     <link rel='stylesheet' href='main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Orbitron" rel="stylesheet">
     <title>CSS Zen Garden</title>
   </head>
   <body>
-    <div id="page-wrapper">
-      <div id="main-container">
-          <header id="header-container"></header>
+    <div class="page-wrapper">
+      <div class="clearfix main-container">
+          <header id="header-container">
+            <img src="img/invaderdude.svg" id="header-image">
+            <h1 class="header-titles press-start-2p">CSS Zen Garden</h1>
+            <h2 class="header-titles">The Beauty of CSS Design</h2>
+          </header>
           <div id="column-container">
             <div id="left-column">
               <section id="enlightenment">
-                <h2>The Road to Enlightenment</h2>
+                <h3><span>1</span>The Road to Enlightenment</h3>
                 <p>
                   Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers.
                 </p>
-                <br>
                 <p>
                   We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WaSP, and the major browser creators.
                 </p>
-                <br>
-                <p>
+                <p class="last-line">
                   The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.
                 </p>
               </section>
               <section id="about">
-                <h2>So What is This About?</h2>
+                <h3><span>2</span>So What is This About?</h3>
                 <p>
                   There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really.
                 </p>
-                <br>
-                <p>
+                <p class="last-line">
                   CSS allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.
                 </p>
               </section>
               <section id="participation">
-                <h2>Participation</h2>
+                <h3><span>3</span>Participation</h3>
                 <p>
                   Strong visual design has always been our focus. You are modifying this page, so strong CSS skills are necessary too, but the example files are commented well enough that even CSS novices can use them as starting points. Please see the CSS Resource Guide for advanced tutorials and tips on working with CSS.
                 </p>
-                <br>
                 <p>
                   You may modify the style sheet in any way you wish, but not the HTML. This may seem daunting at first if you’ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.
                 </p>
-                <br>
-                <p>
+                <p class="last-line">
                   Download the sample HTML and CSS to work on a copy locally. Once you have completed your masterpiece (and please, don’t submit half-finished work) upload your CSS file to a web server under your control. Send us a link to an archive of that file and all associated assets, and if we choose to use it we will download it and place it on our server.
                 </p>
               </section>
               <section id="benefits">
-                <h2>Benefits</h2>
-                <p>
+                <h3><span>4</span>Benefits</h3>
+                <p class="last-line">
                   Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing CSS really can be. This site serves as equal parts inspiration for those working on the web today, learning tool for those who will be tomorrow, and gallery of future techniques we can all look forward to.
                 </p>
               </section>
               <section id="requirements">
-                <h2>Requirements</h2>
+                <h3><span>5</span>Requirements</h3>
                 <p>
                   Where possible, we would like to see mostly CSS 1 &amp; 2 usage. CSS 3 &amp; 4 should be limited to widely-supported elements only, or strong fallbacks should be provided. The CSS Zen Garden is about functional, practical CSS and not the latest bleeding-edge tricks viewable by 2% of the browsing public. The only real requirement we have is that your CSS validates.
                 </p>
-                <br>
                 <p>
                   Luckily, designing this way shows how well various browsers have implemented CSS by now. When sticking to the guidelines you should see fairly consistent results across most modern browsers. Due to the sheer number of user agents on the web these days — especially when you factor in mobile — pixel-perfect layouts may not be possible across every platform. That’s okay, but do test in as many as you can. Your design should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over 90% of the population).
                 </p>
-                <br>
                 <p>
                   We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material to a minimum, and try to incorporate unique and interesting visual themes to your work. We’re well past the point of needing another garden-related design.
                 </p>
-                <br>
-                <p>
+                <p class="last-line">
                   This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions, see submission guidelines), but we ask you release your CSS under a Creative Commons license identical to the one on this site so that others may learn from your work.
                 </p>
               </section>
@@ -78,70 +75,101 @@
               </div>
             </div>
             <div id="right-column">
-              <sidebar id="summary">
-                <h3>Summary</h3>
+              <div id="summary">
+                <h2 class="press-start-2p clearfix">Summary</h2>
                 <p>
                   A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.
                 </p>
-                <br>
                 <p>
                   Download the example <a href="http://www.csszengarden.com/examples/index">html file</a> and <a href="http://www.csszengarden.com/examples/style.css">css file</a>.
                 </p>
-              </sidebar>
-              <sidebar>
-                <h3>Designs</h3>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/221/">mid century modern</a></li>
-                  <p>by</p>
-                  <li><a href="http://andrewlohman.com/">andrew lohman</a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/220/">garments</a></li>
-                  <p>by</p>
-                  <li><a href="http://danielmall.com/">dan mall</a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/219/">steel</a></li>
-                  <p>by</p>
-                  <li><a href="http://steffen-knoeller.de/"></a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/218/">apothecary</a></li>
-                  <p>by</p>
-                  <li><a href="http://trentwalton.com/"></a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/217/">screen filler</a></li>
-                  <p>by</p>
-                  <li><a href="http://elliotjaystocks.com/"></a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/216/">fountain kith</a></li>
-                  <p>by</p>
-                  <li><a href="http://jeremycarlson.com/"></a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/215/">a robot named jimmy</a></li>
-                  <p>by</p>
-                  <li><a href="http://meltmedia.com/"></a></li>
-                </ul>
-                <hr>
-                <ul>
-                  <li><a href="http://www.csszengarden.com/214/">verde moderna</a></li>
-                  <p>by</p>
-                  <li><a href="http://www.mezzoblue.com/"></a></li>
-                </ul>
-              </sidebar>
+              </div>
+              <div class="bottom-right">
+                <div class="clearfix">
+                  <h2 class="press-start-2p">Designs</h2>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/221/">mid century modern</a></li>
+                    <p>by</p>
+                    <li><a href="http://andrewlohman.com/">andrew lohman</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/220/">garments</a></li>
+                    <p>by</p>
+                    <li><a href="http://danielmall.com/">dan mall</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/219/">steel</a></li>
+                    <p>by</p>
+                    <li><a href="http://steffen-knoeller.de/">steffen knoeller</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/218/">apothecary</a></li>
+                    <p>by</p>
+                    <li><a href="http://trentwalton.com/">trent walton</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/217/">screen filler</a></li>
+                    <p>by</p>
+                    <li><a href="http://elliotjaystocks.com/">elliot jay stocks</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/216/">fountain kith</a></li>
+                    <p>by</p>
+                    <li><a href="http://jeremycarlson.com/">jeremy carlson</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/215/">a robot named jimmy</a></li>
+                    <p>by</p>
+                    <li><a href="http://meltmedia.com/">meltmedia</a></li>
+                  </ul>
+                  <hr class="shortline">
+                  <ul class="design-section">
+                    <li><a href="http://www.csszengarden.com/214/">verde moderna</a></li>
+                    <p>by</p>
+                    <li><a href="http://www.mezzoblue.com/">dave shea</a></li>
+                  </ul>
+                </div>
+                <hr class="shortline">
+                <div class="clearfix">
+                  <h2 class="press-start-2p">Archives</h2>
+                  <hr class="shortline">
+                  <a href>next designs ></a>
+                  <br>
+                  <a href>view all designs</a>
+                </div>
+                <hr class="shortline">
+                <div id="resources">
+                  <h2 class="press-start-2p">Resources</h2>
+                  <ul>
+                    <li><a href="http://www.csszengarden.com/143/143.css">view this design's css</a></li>
+                    <hr>
+                    <li><a href="http://www.mezzoblue.com/zengarden/resources/">css resources</a></li>
+                    <hr>
+                    <li><a href="http://www.mezzoblue.com/zengarden/faq/">faq</a></li>
+                    <hr>
+                    <li><a href="http://www.mezzoblue.com/zengarden/submit/">submit a design</a></li>
+                    <hr>
+                    <li><a href="http://www.mezzoblue.com/zengarden/translations/">translations</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <footer id="footer-navbar">
-            <nav></nav>
+          <footer id="footer-navbar" class="clearfix">
+            <nav>
+              <a href="http://validator.w3.org/check/referer">HTML</a>
+              <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+              <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC</a>
+              <a href="http://mezzoblue.com/zengarden/faq/#aaa">A11y</a>
+              <a href="https://github.com/mezzoblue/csszengarden.com">GH</a>
+            </nav>
           </footer>
       </div>
     </div>
